@@ -59,6 +59,7 @@ print "\n" . "Using spending target of $spending_limit and prices from file $men
 // $n.nn or n.nn
 
 $handle = fopen( "$menu_input_file", "r" );
+$row = 0;
 while (( $data = fgetcsv( $handle, 1000, "," )) !== FALSE) {
     $row++;
     $price = str_replace( array( ' ','$', ',', '.' ), '', $data[1] );
