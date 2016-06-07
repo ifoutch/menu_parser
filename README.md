@@ -21,6 +21,10 @@ Deliverable
 - Your variables and functions must be descriptive
 - Is your code well structured and organized
 
+## Download 
+
+    git clone https://github.com/ifoutch/menu_parser
+
 ## Usage
 
   Script requires two arguments specifying the target spending limit and the file containing menu items with prices.
@@ -29,10 +33,15 @@ Deliverable
   
   Example usage:
   
-      php -f ./menu_parser.php 15.05 ./menu
+    php -f ./menu_parser.php 15.05 ./menu
 
   If php is not in your path you can try to locate it using `which php' or `locate bin/php'
-  
+
+Once project is cloned, change directory and try running:
+
+    cd menu_parser
+    php -f ./menu_parser.php 2.00 menu
+    
 ## Testing
 
 To see script in action using different values, try the following:
