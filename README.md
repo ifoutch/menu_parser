@@ -7,12 +7,14 @@ Here are some sample data values:
 
 Target price $15.05
 
-mixed fruit,$2.15
-french fries,$2.75
-side salad,$3.35
-hot wings,$3.55
-mozzarella sticks,$4.20
-sampler plate,$5.80
+|Menu Item|Price|
+|---------|-----|
+|mixed fruit|$2.15|
+|french fries|$2.75|
+|side salad|$3.35|
+|hot wings|$3.55|
+|mozzarella sticks|$4.20|
+|sampler plate|$5.80|
 
 Deliverable
 - Your code must run without errors or warnings
@@ -27,7 +29,7 @@ Deliverable
   
   Example usage:
   
-  php -f ./menu_parser.php 15.05 ./menu
+      php -f ./menu_parser.php 15.05 ./menu
 
   If php is not in your path you can try to locate it using `which php' or `locate bin/php'
   
@@ -35,4 +37,4 @@ Deliverable
 
 To see script in action using different values, try the following:
 
-for x in `seq 2 20`; do for y in `seq 5 5 95`; do php -f ./menu_parser.php $x.$y menu; done; done | egrep 'Using|match your target'
+    for x in `seq 2 20`; do for y in `seq 5 5 95`; do php -f ./menu_parser.php $x.$y menu; done; done | egrep 'Using|match your target'
