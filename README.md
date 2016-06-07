@@ -23,7 +23,7 @@ Deliverable
 
 ## Download 
 
-    git clone https://github.com/ifoutch/menu_parser
+    git clone https://github.com/ifoutch/menu_parser.git
 
 ## Usage
 
