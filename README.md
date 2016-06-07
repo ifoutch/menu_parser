@@ -27,6 +27,8 @@ Deliverable
 
 ## Usage
 
+This should work on Mac OS X with PHP 5.3+ or CentOS 5.x or newer with PHP 5.3+
+
   Script requires two arguments specifying the target spending limit and the file containing menu items with prices.
   The file containing the menu items and prices must be comma delimited, preferrably with just two columns for each item (row).
   The first row should be the "item description" and the second the price for the item.
